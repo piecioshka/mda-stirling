@@ -1,0 +1,30 @@
+<script src="stirling.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+<fieldset>
+    <legend>Stirling</legend>
+
+    <form id="do-it">
+        <label for="a">a: </label><input id="a" /><br>
+        <label for="b">b: </label><input id="b" /><br><br>
+        <input type="submit" value="Licz" />
+    </form>
+
+    <p style="display: none;"><br>Wynik: <label id="result"></label></p>
+</fieldset>
+
+<script type="text/javascript">
+
+    $("#do-it").on("submit", function (event) {
+        var a = parseInt($("#a").val(), 10);
+        var b = parseInt($("#b").val(), 10);
+
+        $("#result").parent().show();
+        $("#result").text(Stirling(a, b));
+
+        event.preventDefault();
+
+        return false;
+    });
+
+</script>
