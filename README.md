@@ -1,1 +1,1 @@
-algorymt liczenia liczby Stirlinga
+algorytm liczenia liczby Stirlinga
