@@ -34,13 +34,13 @@
             r = stirling(a, b);
 
             // pokasujemy kontener z wynikiem
-            $result.parent().show();
+            $result.removeClass('hidden');
 
             // wklejamy wynik
-            $result.text(r);
+            $result.html('<h4>Wynik: ' + r + '</h4');
         } catch (e) {
             // ukrywamy kontener z wynikiem
-            $result.parent().hide();
+            $result.addClass('hidden');
 
             // pokazujemy komunikat błędu
             alert(e);

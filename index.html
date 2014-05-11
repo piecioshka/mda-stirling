@@ -9,35 +9,40 @@
     <link rel="stylesheet" href="styles/app.css"/>
 </head>
 <body>
-    <header class="center-block bg-primary">
-        <h4 class="text-center">Stirling</h4>
-    </header>
+    <article class="center-block">
+        <header class="bg-primary">
+            <h4 class="text-center">Stirling</h4>
+        </header>
 
-    <form id="do-it" class="well form-horizontal" role="form">
-        <div class="form-group">
-            <label for="a" class="col-sm-1 control-label">a:</label>
-            <div class="col-sm-5">
-                <input id="a" class="form-control" placeholder="Pierwszy" />
-            </div>
-        </div>
+        <section class="bg-info">
+            <form id="do-it" class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="a" class="col-sm-1 control-label">a:</label>
+                    <div class="col-sm-5">
+                        <input id="a" class="form-control" placeholder="Pierwszy" />
+                    </div>
+                </div>
 
-        <div class="form-group">
-            <label for="b" class="col-sm-1 control-label">b:</label>
-            <div class="col-sm-5">
-                <input id="b" class="form-control" placeholder="Drugi"/>
-            </div>
-        </div>
+                <div class="form-group">
+                    <label for="b" class="col-sm-1 control-label">b:</label>
+                    <div class="col-sm-5">
+                        <input id="b" class="form-control" placeholder="Drugi"/>
+                    </div>
+                </div>
 
-        <div class="form-group">
-            <div class="col-sm-offset-1 col-sm-5">
-                <input type="submit" class="btn btn-default" value="Oblicz" />
-            </div>
-        </div>
-    </form>
+                <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-5">
+                        <input type="submit" class="btn btn-default" value="Oblicz" />
+                    </div>
+                </div>
+            </form>
+        </section>
 
-    <p style="display: none;"><br>Wynik: <label id="result"></label></p>
+        <section id="result" class="result-block bg-success hidden text-center"></section>
+    </article>
 
-    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="//zeptojs.com/zepto.min.js"></script>
     <script src="scripts/app.js"></script>
+    <script src="scripts/statistics.js"></script>
 </body>
 </html>
