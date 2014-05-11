@@ -7,6 +7,7 @@
     'use strict';
 
     var a, b, r;
+    var $result = $('#result');
 
     function stirling(a, b) {
         if (b === 1) {
@@ -26,8 +27,6 @@
 
         // pobieramy drugą wartość z formularza
         b = parseInt($('#b').val(), 10);
-
-        var $result = $('#result');
 
         try {
             // liczymy liczbę Stirlinga
