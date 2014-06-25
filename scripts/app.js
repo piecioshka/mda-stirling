@@ -1,6 +1,6 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @see http://jsninja.pl/mda-stirling/
+ * @see http://piecioshka.pl/projects/mda-stirling/
  * @licence The MIT License {@link http://piecioshka.mit-license.org/}
  */
 (function () {
