@@ -2,7 +2,7 @@
 
 Mini aplikacja pozwalająca obliczyć liczbę Stirlinga.
 
-## Demo
+## Demo 🎉
 
 <http://piecioshka.github.io/mda-stirling/>
 
