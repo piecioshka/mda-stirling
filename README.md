@@ -2,10 +2,10 @@
 
 Mini aplikacja pozwalająca obliczyć liczbę Stirlinga.
 
-## Demo 🎉
+## Preview 🎉
 
-<http://piecioshka.github.io/mda-stirling/>
+<https://piecioshka.github.io/mda-stirling/>
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org/) @ 2014
+[The MIT License](https://piecioshka.mit-license.org/) @ 2014
